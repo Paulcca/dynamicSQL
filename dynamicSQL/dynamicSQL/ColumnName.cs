@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace dynamicSQL
 {
-    public class LookupName
+   public class ColumnName
     {
         public int ID { get; set; }
-
-        public string Name { get; set; }
-
-        public virtual ICollection<ColumnName> ColumnNames { get; set; }
+        public string ColName { get; set; }
     }
 }
